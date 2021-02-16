@@ -5,7 +5,7 @@ import cv2
 import shutil
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
-from pfld.utils import calculate_pitch_yaw_roll
+from .my_prepare_data import calculate_pitch_yaw_roll
 debug = False
 
 def rotate(angle, center, landmark):
